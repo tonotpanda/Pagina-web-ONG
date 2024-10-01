@@ -1,0 +1,338 @@
+/*CSS GENERAL*/
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+}
+
+/*CSS NAVBAR*/
+.topnav,
+.prueba {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 98%;
+  padding: 10px;
+}
+
+.logo {
+  width: 450px;
+}
+
+.prueba {
+  display: flex;
+  gap: 20px;
+}
+
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/*CSS INTRODUCCIÓN*/
+.introduction {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.introduction h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.introduction p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/*CSS IMAGENES*/
+.img {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.img img {
+  width: 80%;
+  max-width: 800px;
+  height: auto;
+}
+
+/*CSS CONTENIDO*/
+.contenido {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.contenido h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.contenido p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/*CSS LINEA*/
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #ddd;
+  margin: 50px 0;
+}
+
+/*CSS DESTACADO*/
+.todo {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.Outstanding {
+  padding: 10px;
+  margin-left: 20px;
+  width: 45%;
+}
+
+.fila_01,
+.fila_02 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.cuadrado {
+  width: 150px;
+  height: 150px;
+  background-color: #eee;
+  text-align: center;
+  line-height: 150px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+.txt_exp {
+  width: 45%;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.txt_exp h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.txt_exp p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.img2 {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.img2 img {
+  width: 80%;
+  max-width: 800px;
+  height: auto;
+}
+
+/*CSS NOVEDADES*/
+.all {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.news {
+  padding: 10px;
+  margin-left: 20px;
+  width: 45%;
+}
+
+.column_01,
+.column_02 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.Novedades {
+  width: 45%;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.Novedades h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+
+
+/*CSS OTROS*/
+.img_noticia img {
+  width: 520px; 
+  height: 300px;
+}
+
+.imagen_autor img {
+  width: 100px; 
+  height: 100px;
+}
+
+.autores img {
+  width: 100px; 
+  height: 100px;
+}
+
+
+.cuadrado:hover {
+  background-color: grey;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.todo,
+.all {
+  display: flex;
+  flex-direction: row;
+  width: 98%;
+}
+
+.logo img {
+  width: 20%; 
+  height: 20%; 
+}
+
+
+.logo_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%; 
+  height: 20%; 
+}
+
+.information {
+  display: inline-block;
+  width: 33%;
+}
+
+.privacity {
+  width: 33%;
+}
+
+.todo_footer {
+  margin: 50px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.campaign, .news_prueba, .actividad {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.todo_autores, .todo_actv {
+  margin: 50px;
+  padding: 10px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.noticia {
+  margin: 50px;
+  padding: 10px;
+  border: solid 5px black;
+  align-items: center;
+  display: grid; 
+  place-items: center;
+}
+
+/* CSS FORMULARIO */
+form {
+  width: 60%;
+  margin: 0 auto; 
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+label[for="politica"],
+label[for="newsletter"] {
+  display: inline-block;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50; 
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; 
+}
+
+button[type="submit"]:hover {
+  background-color: #45A049; 
+}
+
+
+
+
+

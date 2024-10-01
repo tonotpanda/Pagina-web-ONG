@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Asociación</title>
+    <link rel="stylesheet" href="/estilos/estiloJavier.css">
+</head>
+
+<body>
+    <header>
+        <div class="topnav">
+            <div class="logo">
+                <a href="index.html">
+                    <img class="logo" src="/img/logo_footer.png" alt="Logo de mi página">
+                </a>
+            </div>
+            <div class="prueba">
+                <a href="campanas.html">Pagina de Campañas</a>
+                <a href="noticias.html">Pagina de Noticias</a>
+                <a href="actividades.html">Pagina de Actividades</a>
+                <a href="asociate.html">Pagina para Asociarte</a>
+            </div>
+        </div>
+    </header>
+    <form id="alta-socio-form">
+        <div class="datos-personales">
+            <h2>Dades personals</h2>
+            <label for="nombre">Nom:</label>
+            <input type="text" id="nombre" name="nombre" required maxlength="50">
+
+            <label for="apellidos">Cognoms:</label>
+            <input type="text" id="apellidos" name="apellidos" required maxlength="50">
+
+            <label for="tratamiento">Tractament:</label>
+            <select id="tratamiento" name="tratamiento" required>
+                <option value="sr">Sr.</option>
+                <option value="sra">Sra.</option>
+                <option value="otro">Sense tractament</option>
+            </select>
+
+            <label for="codigo_postal">Codi Postal:</label>
+            <input type="number" id="codigo_postal" name="codigo_postal" required>
+
+            <label for="telefono">Telèfon (opcional):</label>
+            <input type="tel" id="telefono" name="telefono">
+
+            <label for="email">Correu electrònic:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="datos-socio">
+            <h2>Dades de soci</h2>
+            <label for="quota">Quota de soci:</label>
+            <select id="quota" name="quota" required>
+                <option value="quota_01">Quota 1: 100€</option>
+                <option value="quota_02">Quota 2: 150€</option>
+                <option value="quota_03">Quota 3: 200€</option>
+                <option value="quota_04">Quota 4: 300€</option>
+            </select>
+
+            <h3>Temes d'interès:</h3>
+            <div class="areas_interes">
+                <input type="checkbox" id="area_1" name="areas_interes[]" value="medioambiente">
+                <label for="area_1">Mediambient</label><br>
+
+                <input type="checkbox" id="area_2" name="areas_interes[]" value="educacion">
+                <label for="area_2">Educació</label><br>
+
+                <input type="checkbox" id="area_3" name="areas_interes[]" value="sanidad">
+                <label for="area_3">Sanitat</label><br>
+
+                <input type="checkbox" id="area_4" name="areas_interes[]" value="derechoshumanos">
+                <label for="area_4">Drets Humans</label><br>
+            </div>
+
+            <label for="politica">
+                <input type="checkbox" id="politica" name="politica" required>
+                Accepto la política de privacitat
+            </label>
+
+            <label for="newsletter">
+                <input type="checkbox" id="newsletter" name="newsletter">
+                Vull subscriure'm a la newsletter
+            </label>
+
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+</body>
+</html>
